@@ -2,13 +2,10 @@ package com.example.fastcampustest01
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class NewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        Toast.makeText(this, "gogogo", Toast.LENGTH_SHORT).show()
+        setContentView(R.layout.activity_new)
     }
 }
